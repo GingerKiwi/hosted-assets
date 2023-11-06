@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Lobster&display=swap');
+
+:root {
+    --clr-beige: #DDC3A5;
+		--clr-black-brown: #201E20;
+		--clr-tan: #E0A96D;
+		--clr-spice: #783937;
+/* 	Beige #DDC3A5, Black-brown #201E20, Tan #E0A96D, Spice 783937*/
+		--ff-heading: 'Lobster', sans-serif;
+		--ff-body: 'Cabin Condensed', sans-serif;
+}
+
+body {
+	font-family: var(--ff-body);
+	background: var(--clr-beige);
+	color: var(--clr-black-brown);
+	text-align: center;
+}
+
+h1 {
+	font-family: var(--ff-heading);
+	color: var(--clr-spice);
+	text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-right: 2em;
+}
+
+a {
+	color: var(--clr-black-brown);
+	text-transform: uppercase;
+}
+
+.a11y--skip-to-main {
+	color: var(--clr--tan);
+}
